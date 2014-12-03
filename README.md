@@ -1,5 +1,5 @@
 Japaneseholiday.Api
 ======================
 
-http://jp-holiday.heroku.comのソースコード
+http://japanese-holiday.heroku.com のソースコード
 
