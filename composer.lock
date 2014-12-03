@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ab10fe23ab4cf9bc355819d63dc7ee0c",
+    "hash": "79a2c6a105858c2b746b52b8be97c888",
     "packages": [
         {
             "name": "any/serializer",
@@ -1504,6 +1504,38 @@
             "time": "2014-08-17 21:15:53"
         },
         {
+            "name": "japanese-holiday/japanese-holiday",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/77web/Japanese.Holiday.git",
+                "reference": "6e28f35204f7204ba48ea30ed580e2f5d990970d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/77web/Japanese.Holiday/zipball/6e28f35204f7204ba48ea30ed580e2f5d990970d",
+                "reference": "6e28f35204f7204ba48ea30ed580e2f5d990970d",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/yaml": "~2.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Japanese\\Holiday\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "time": "2014-11-28 13:07:38"
+        },
+        {
             "name": "nikic/php-parser",
             "version": "v1.0.2",
             "source": {
@@ -1857,6 +1889,53 @@
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
             "time": "2014-11-28 10:00:40"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v2.6.0",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "51c845cf3e4bfc182d1d5c05ed1c7338361d86f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/51c845cf3e4bfc182d1d5c05ed1c7338361d86f8",
+                "reference": "51c845cf3e4bfc182d1d5c05ed1c7338361d86f8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-11-20 13:24:23"
         },
         {
             "name": "twig/twig",
@@ -3336,53 +3415,6 @@
             "time": "2014-11-28 10:00:40"
         },
         {
-            "name": "symfony/yaml",
-            "version": "v2.6.0",
-            "target-dir": "Symfony/Component/Yaml",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/Yaml.git",
-                "reference": "51c845cf3e4bfc182d1d5c05ed1c7338361d86f8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/51c845cf3e4bfc182d1d5c05ed1c7338361d86f8",
-                "reference": "51c845cf3e4bfc182d1d5c05ed1c7338361d86f8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.6-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Symfony\\Component\\Yaml\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                }
-            ],
-            "description": "Symfony Yaml Component",
-            "homepage": "http://symfony.com",
-            "time": "2014-11-20 13:24:23"
-        },
-        {
             "name": "zendframework/zend-db",
             "version": "2.3.3",
             "target-dir": "Zend/Db",
@@ -3595,6 +3627,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "japanese-holiday/japanese-holiday": 20,
         "bear/dev-package": 20
     },
     "prefer-stable": true,
