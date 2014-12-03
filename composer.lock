@@ -1509,12 +1509,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/77web/Japanese.Holiday.git",
-                "reference": "6e28f35204f7204ba48ea30ed580e2f5d990970d"
+                "reference": "2f83f19d5ff48ca4f8fc617d0096e90b3dff565d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/77web/Japanese.Holiday/zipball/6e28f35204f7204ba48ea30ed580e2f5d990970d",
-                "reference": "6e28f35204f7204ba48ea30ed580e2f5d990970d",
+                "url": "https://api.github.com/repos/77web/Japanese.Holiday/zipball/2f83f19d5ff48ca4f8fc617d0096e90b3dff565d",
+                "reference": "2f83f19d5ff48ca4f8fc617d0096e90b3dff565d",
                 "shasum": ""
             },
             "require": {
@@ -1533,7 +1533,7 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "time": "2014-11-28 13:07:38"
+            "time": "2014-12-03 13:47:46"
         },
         {
             "name": "nikic/php-parser",
