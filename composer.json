@@ -3,8 +3,9 @@
     "description":"n/a",
     "license": "proprietary",
     "require": {
+        "php": "~5.5.0",
         "bear/package": "~0.11",
-        "japanese-holiday/japanese-holiday": "dev-master"
+        "japanese-holiday/japanese-holiday": "dev-master@dev"
     },
     "require-dev": {
         "bear/dev-package": "~0.1@dev"
