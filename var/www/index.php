@@ -23,6 +23,7 @@ use BEAR\Resource\Exception\ResourceNotFound as NotFound;
 /* @var $app \BEAR\Package\Provide\Application\AbstractApp */
 $context = 'prod';
 $app = require __DIR__ . '/../../bootstrap/instance.php';
+date_default_timezone_set('Asia/Tokyo');
 
 //
 // Calling the match of a BEAR.Sunday compatible router will give us the $method, $pagePath, $query to be used
