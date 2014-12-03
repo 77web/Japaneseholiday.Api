@@ -33,6 +33,8 @@ class AppModule extends AbstractModule
     {
         $this->install(new StandardPackageModule('Japaneseholiday\Api', $this->context, dirname(dirname(__DIR__))));
 
+        $this->bind('Japanese\Holiday\Repository')->toProvider('Japaneseholiday\Api\Module\Provider\JapaneseHolidayProvider');
+
         // override module
         // $this->install(new SmartyModule($this));
 
