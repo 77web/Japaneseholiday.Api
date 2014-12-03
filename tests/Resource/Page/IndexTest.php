@@ -32,14 +32,6 @@ class IndexTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @depends resource
-     */
-    public function testBody($page)
-    {
-        $this->assertArrayHasKey('greeting', $page->body);
-    }
-
-    /**
      * Renderable ?
      *
      * @depends resource
@@ -66,7 +58,7 @@ class IndexTest extends \PHPUnit_Framework_TestCase
      */
     public function testOnGet()
     {
-        $page = $this->resource->get->uri('page://self/index')->withQuery(['name' => 'koriym'])->eager->request();
-        $this->assertSame('Hello koriym', $page['greeting']);
+        $page = $this->resource->get->uri('page://self/index')->eager->request();
+        $this->assertContains('Japanese Holiday api', (string)$page);
     }
 }
