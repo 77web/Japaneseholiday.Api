@@ -29,6 +29,7 @@ $app = require __DIR__ . '/../../bootstrap/instance.php';
 // in the page request.
 //
 list($method, $pagePath, $query) = $app->router->match();
+$pagePath = ltrim($pagePath, '/');
 
 //
 // An attempt to request the page resource is made.
